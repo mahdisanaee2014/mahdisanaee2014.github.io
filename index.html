@@ -11,6 +11,34 @@
 
 <style>
 
+#contact{
+    text-align:center;
+}
+
+.social{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.social a{
+    font-size:42px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social a:hover{
+    transform:scale(1.2);
+}
+
+.fa-envelope{color:#EA4335;}
+.fa-telegram{color:#229ED9;}
+.fa-whatsapp{color:#25D366;}
+.fa-instagram{color:#E1306C;}
+    
 body{
     margin:0;
     font-family:Tahoma,Arial,sans-serif;
@@ -119,42 +147,32 @@ footer{
 به سایت شخصی من خوش آمدید.
 </p>
 
-</section>
-<section id="contact">
+    <section id="contact">
 
 <h2>تماس با من</h2>
 
-<p>
-<a href="mailto:mahdisanaee2014@gmail.com">
-<i class="fa-solid fa-envelope" style="color:#EA4335;"></i>
-ایمیل
+<div class="social">
+
+<a href="mailto:mahdisanaee2014@gmail.com" title="ایمیل">
+<i class="fa-solid fa-envelope"></i>
 </a>
-</p>
 
-<p>
-<a href="https://t.me/USERNAME" target="_blank">
-<i class="fa-brands fa-telegram" style="color:#229ED9;"></i>
-تلگرام
+<a href="https://t.me/USERNAME" title="تلگرام">
+<i class="fa-brands fa-telegram"></i>
 </a>
-</p>
 
-<p>
-<a href="https://wa.me/98912XXXXXXX" target="_blank">
-<i class="fa-brands fa-whatsapp" style="color:#25D366;"></i>
-واتساپ
+<a href="https://wa.me/98912XXXXXXX" title="واتساپ">
+<i class="fa-brands fa-whatsapp"></i>
 </a>
-</p>
 
-<p>
-<a href="https://instagram.com/USERNAME" target="_blank">
-<i class="fa-brands fa-instagram" style="color:#E1306C;"></i>
-اینستاگرام
+<a href="https://instagram.com/USERNAME" title="اینستاگرام">
+<i class="fa-brands fa-instagram"></i>
 </a>
-</p>
 
-</section>
+</div>
 
-<footer>
+    </section>
+    <footer>
 
 © 2026 سایت مهدی ثنایی
 
