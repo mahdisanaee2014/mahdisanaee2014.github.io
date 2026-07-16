@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>سایت مهدی ثنایی</title>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 <style>
+
 body{
     margin:0;
     font-family:Tahoma,Arial,sans-serif;
@@ -44,6 +50,11 @@ button{
     border-radius:8px;
     background:#003366;
     color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0055aa;
 }
 
 section{
@@ -51,6 +62,22 @@ section{
     margin:30px;
     padding:20px;
     border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+#contact a{
+    text-decoration:none;
+    color:#333;
+    font-size:24px;
+}
+
+#contact p{
+    margin:18px;
+}
+
+#contact i{
+    font-size:32px;
+    margin-left:10px;
 }
 
 footer{
@@ -59,7 +86,9 @@ footer{
     padding:20px;
     margin-top:30px;
 }
+
 </style>
+
 </head>
 
 <body>
@@ -67,59 +96,70 @@ footer{
 <nav>
 <a href="#">خانه</a>
 <a href="#about">درباره من</a>
-<section id="contact">
-    <h2>تماس با من</h2>
-
-    <p>
-        <a href="mailto:mahdisanaee2014@gmail.com">
-            <i class="fa-solid fa-envelope" style="color:#EA4335;"></i>
-            ایمیل
-        </a>
-    </p>
-
-    <p>
-        <a href="https://t.me/USERNAME">
-            <i class="fa-brands fa-telegram" style="color:#229ED9;"></i>
-            تلگرام
-        </a>
-    </p>
-
-    <p>
-        <a href="https://wa.me/98912XXXXXXX">
-            <i class="fa-brands fa-whatsapp" style="color:#25D366;"></i>
-            واتساپ
-        </a>
-    </p>
-
-    <p>
-        <a href="https://instagram.com/USERNAME">
-            <i class="fa-brands fa-instagram" style="color:#E1306C;"></i>
-            اینستاگرام
-        </a>
-    </p>
-
-</section>
+<a href="#contact">تماس با من</a>
 </nav>
 
 <header>
+
 <h1>سایت مهدی ثنایی</h1>
+
 <p>به اولین سایت من خوش آمدید</p>
-<button>ورود</button>
+
+<button onclick="alert('به سایت مهدی ثنایی خوش آمدید')">
+ورود
+</button>
+
 </header>
 
 <section id="about">
-<h2>درباره من</h2>
-<p>به سایت شخصی من خوش آمدید.</p>
-</section>
 
+<h2>درباره من</h2>
+
+<p>
+به سایت شخصی من خوش آمدید.
+</p>
+
+</section>
 <section id="contact">
+
 <h2>تماس با من</h2>
-<p>این بخش بعداً تکمیل خواهد شد.</p>
+
+<p>
+<a href="mailto:mahdisanaee2014@gmail.com">
+<i class="fa-solid fa-envelope" style="color:#EA4335;"></i>
+ایمیل
+</a>
+</p>
+
+<p>
+<a href="https://t.me/USERNAME" target="_blank">
+<i class="fa-brands fa-telegram" style="color:#229ED9;"></i>
+تلگرام
+</a>
+</p>
+
+<p>
+<a href="https://wa.me/98912XXXXXXX" target="_blank">
+<i class="fa-brands fa-whatsapp" style="color:#25D366;"></i>
+واتساپ
+</a>
+</p>
+
+<p>
+<a href="https://instagram.com/USERNAME" target="_blank">
+<i class="fa-brands fa-instagram" style="color:#E1306C;"></i>
+اینستاگرام
+</a>
+</p>
+
 </section>
 
 <footer>
+
 © 2026 سایت مهدی ثنایی
+
 </footer>
 
 </body>
+
 </html>
