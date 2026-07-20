@@ -1,183 +1,167 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت مهدی ثنایی</title>
 
-<title>سایت مهدی ثنایی</title>
+    <!-- Font Awesome برای آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+        }
 
-<style>
+        nav {
+            background: #003366;
+            padding: 15px;
+        }
 
-#contact{
-    text-align:center;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 20px;
+        }
 
-.social{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:30px;
-    margin-top:20px;
-    margin-bottom:20px;
-}
+        header {
+            padding: 60px 20px;
+        }
 
-.social a{
-    font-size:42px;
-    text-decoration:none;
-    transition:0.3s;
-}
+        h1 {
+            color: #003366;
+            font-size: 48px;
+        }
 
-.social a:hover{
-    transform:scale(1.2);
-}
+        p {
+            font-size: 24px;
+        }
 
-.fa-envelope{color:#EA4335;}
-.fa-telegram{color:#229ED9;}
-.fa-whatsapp{color:#25D366;}
-.fa-instagram{color:#E1306C;}
-    
-body{
-    margin:0;
-    font-family:Tahoma,Arial,sans-serif;
-    background:#f4f4f4;
-    text-align:center;
-}
+        button {
+            padding: 12px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            background: #003366;
+            color: white;
+            cursor: pointer;
+        }
 
-nav{
-    background:#003366;
-    padding:15px;
-}
+        button:hover {
+            background: #0055aa;
+        }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-size:20px;
-}
+        section {
+            background: white;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        }
 
-header{
-    padding:60px 20px;
-}
+        #contact {
+            text-align: center;
+        }
 
-h1{
-    color:#003366;
-    font-size:48px;
-}
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-p{
-    font-size:24px;
-}
+        .social a {
+            font-size: 42px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
 
-button{
-    padding:12px 30px;
-    font-size:20px;
-    border:none;
-    border-radius:8px;
-    background:#003366;
-    color:white;
-    cursor:pointer;
-}
+        .social a:hover {
+            transform: scale(1.2);
+        }
 
-button:hover{
-    background:#0055aa;
-}
+        .fa-envelope { color: #EA4335; }
+        .fa-telegram { color: #229ED9; }
+        .fa-whatsapp { color: #25D366; }
+        .fa-instagram { color: #E1306C; }
 
-section{
-    background:white;
-    margin:30px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.15);
-}
+        #contact a {
+            text-decoration: none;
+            color: #333;
+            font-size: 24px;
+        }
 
-#contact a{
-    text-decoration:none;
-    color:#333;
-    font-size:24px;
-}
+        #contact p {
+            margin: 18px;
+        }
 
-#contact p{
-    margin:18px;
-}
+        #contact i {
+            font-size: 32px;
+            margin-left: 10px;
+        }
 
-#contact i{
-    font-size:32px;
-    margin-left:10px;
-}
+        footer {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head> <body>
 
-footer{
-    background:#003366;
-    color:white;
-    padding:20px;
-    margin-top:30px;
-}
+    <nav>
+        <a href="#">خانه</a>
+        <a href="#about">درباره من</a>
+        <a href="#contact">تماس با من</a>
+    </nav>
 
-</style>
+    <header>
+        <h1>سایت مهدی ثنایی</h1>
+        <p>به اولین سایت من خوش آمدید</p>
+        <button onclick="alert('به سایت مهدی ثنایی خوش آمدید')">
+            ورود
+        </button>
+    </header>
 
-</head>
-
-<body>
-
-<nav>
-<a href="#">خانه</a>
-<a href="#about">درباره من</a>
-<a href="#contact">تماس با من</a>
-</nav>
-
-<header>
-
-<h1>سایت مهدی ثنایی</h1>
-
-<p>به اولین سایت من خوش آمدید</p>
-
-<button onclick="alert('به سایت مهدی ثنایی خوش آمدید')">
-ورود
-</button>
-
-</header>
-
-<section id="about">
-
-<h2>درباره من</h2>
-
-<p>
-به سایت شخصی من خوش آمدید.
-</p>
-
-    <section id="contact">
-
-<h2>تماس با من</h2>
-
-<div class="social">
-
-<a href="mailto:mahdisanaee2014@gmail.com" title="ایمیل">
-<i class="fa-solid fa-envelope"></i>
-</a>
-
-<a href=" bot/t.me/Monajon_bot " title="تلگرام">
-<i class="fa-brands fa-telegram"></i>
-</a>
-
-<a href="https://wa.me/98912XXXXXXX" title="واتساپ">
-<i class="fa-brands fa-whatsapp"></i>
-</a>
-
-<a href="https://instagram.com/USERNAME" title="اینستاگرام">
-<i class="fa-brands fa-instagram"></i>
-</a>
-
-</div>
-
+    <!-- بخش درباره من -->
+    <section id="about">
+        <h2>درباره من</h2>
+        <p>به سایت شخصی من خوش آمدید.</p>
     </section>
+
+    <!-- بخش تماس با من با لینک اصلاح شده -->
+    <section id="contact">
+        <h2>تماس با من</h2>
+        <div class="social">
+            <a href="mailto:mahdisanaee2014@gmail.com" title="ایمیل">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://t.me/Monajon_bot" title="تلگرام">
+                <i class="fa-brands fa-telegram"></i>
+            </a>
+
+            <a href="https://wa.me/98912XXXXXXX" title="واتساپ">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://instagram.com/USERNAME" title="اینستاگرام">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
     <footer>
-
-© 2026 سایت مهدی ثنایی
-
-</footer>
+        © 2026 سایت مهدی ثنایی
+    </footer>
 
 </body>
-
 </html>
+
